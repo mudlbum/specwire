@@ -1,0 +1,29 @@
+{
+  "context-window-explained": {
+    "path": "assets/photos/context-window-explained.jpg",
+    "alt": "A close-up of vintage books on library shelves in London, showcasing an abundance of literary history.",
+    "credit": "Bo Ponomari",
+    "credit_url": "https://www.pexels.com/@bopopics",
+    "source_url": "https://www.pexels.com/photo/books-on-shelves-14747971/",
+    "provider": "Pexels",
+    "query": "library archive shelves books rows perspective"
+  },
+  "qd-oled-vs-woled": {
+    "path": "assets/photos/qd-oled-vs-woled.jpg",
+    "alt": "Vibrant test pattern screen with colorful bars and modern design.",
+    "credit": "Tim Mossholder",
+    "credit_url": "https://www.pexels.com/@timmossholder",
+    "source_url": "https://www.pexels.com/photo/flat-screen-monitor-showing-color-bars-668296/",
+    "provider": "Pexels",
+    "query": "oled screen macro pixels subpixel display texture"
+  },
+  "monitor-response-time-1ms-explained": {
+    "path": "assets/photos/monitor-response-time-1ms-explained.jpg",
+    "alt": "A woman typing on a keyboard in a dimly lit, cozy workspace, featuring a computer screen.",
+    "credit": "cottonbro studio",
+    "credit_url": "https://www.pexels.com/@cottonbro",
+    "source_url": "https://www.pexels.com/photo/person-in-black-blazer-typing-on-keyboard-5473307/",
+    "provider": "Pexels",
+    "query": "gaming monitor motion blur fast movement screen"
+  }
+}
