@@ -296,6 +296,19 @@ The site must stay approvable and stay approved:
 - Every policy page in `content/pages/` must exist and be linked from the footer:
   about, contact, privacy, cookies, terms, disclaimer, editorial policy, corrections.
 - Ads never sit above the fold, never inside article prose, and are always labelled.
+- **`adsense` in `site.config.json` has three states**, and the middle one exists
+  because Google's review needs verification code live while ads stay off:
+  - `enabled:false, verify:false` — no AdSense code, and **no placeholder boxes**.
+    Placeholders do nothing for approval (Google verifies via the head snippet,
+    `ads.txt` or the `google-adsense-account` meta tag, never by looking for
+    rendered slots) and they spend the first screen of every page on dead space.
+  - `enabled:false, verify:true` — ships the ownership meta tag and `ads.txt`
+    only. This is the state to deploy when you click "Request review".
+  - `enabled:true` — verification plus live ad serving.
+- Do not apply for review on a thin site. Google's stated bar is content that is
+  "high-quality, original, and attract[s] an audience"; review takes a few days to
+  4 weeks, and a rejection is more expensive than waiting. Roughly 20+ substantial
+  posts across several live categories is a sane threshold.
 - No scraped content, no auto-translated republishing, no "review" of a product
   nobody has tested.
 - The AI-disclosure box renders on every article automatically. Do not remove it.

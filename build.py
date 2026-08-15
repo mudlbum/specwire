@@ -304,10 +304,17 @@ def load_pages():
 
 # ───────────────────────────────────────────────────────────── ad slots ──
 def ad_unit(kind: str) -> str:
+    """Render an ad slot, or nothing at all.
+
+    Before approval this returns an empty string rather than a placeholder box.
+    Google's site review checks content and policy compliance, and verifies
+    ownership via the head snippet / ads.txt / meta tag — never by looking for
+    rendered ad slots. An empty labelled rectangle therefore contributes nothing
+    to approval while spending the first screen of every page on dead space.
+    """
     ad = CFG["adsense"]
     if not ad.get("enabled"):
-        return (f'\n<div class="ad-slot ad-{kind}" data-ad-placeholder="{kind}" aria-hidden="true">'
-                f'<span>Advertisement</span></div>\n')
+        return ""
     slot = ad["slots"].get(kind, "")
     return f"""
 <div class="ad-slot ad-{kind}">
@@ -392,9 +399,16 @@ if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)
     if ga or ad.get("enabled"):
         bits.append('<script src="/consent.js"></script>')
         bits.append('<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>')
+    # Three states, because the review flow needs the middle one:
+    #   enabled=false, verify=false → no AdSense anything (pre-application)
+    #   enabled=false, verify=true  → ownership meta tag + ads.txt, but no ads
+    #                                 served and no slots rendered. This is what
+    #                                 you deploy when you click "Request review".
+    #   enabled=true                → verification plus live ad serving.
+    if ad.get("enabled") or ad.get("verify"):
+        bits.append(f'<meta name="google-adsense-account" content="{ad["publisher_id"]}">')
     if ad.get("enabled"):
         bits.append('<link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>')
-        bits.append(f'<meta name="google-adsense-account" content="{ad["publisher_id"]}">')
         if ad.get("auto_ads"):
             bits.append('<script async crossorigin="anonymous" '
                         f'src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={ad["publisher_id"]}"></script>')
@@ -976,8 +990,11 @@ Sitemap: {SITE}/sitemap.xml
     lines += ["## About", ""] + [f"- [{pg['title']}]({pg['abs_url']})" for pg in pages]
     write(os.path.join(DIST, "llms.txt"), "\n".join(lines) + "\n")
 
+    # ads.txt is also one of Google's three accepted ownership-verification
+    # methods, so it ships in verify mode too — before any ad is ever served.
     ad = CFG["adsense"]
-    if ad.get("enabled") and ad["publisher_id"].startswith("ca-pub-"):
+    if (ad.get("enabled") or ad.get("verify")) and ad["publisher_id"].startswith("ca-pub-") \
+            and not ad["publisher_id"].strip("ca-pub-0") == "":
         pub = ad["publisher_id"].replace("ca-pub-", "")
         write(os.path.join(DIST, "ads.txt"), f"google.com, pub-{pub}, DIRECT, f08c47fec0942fa0\n")
 

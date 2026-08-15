@@ -46,7 +46,9 @@
   "llms_blurb": "Independent, source-traced explainers and review round-ups covering smartphones, laptops, displays, AI models and consumer audio.",
   "sourcing_note": "Claims are traced to primary sources - standards-body compliance documents, silicon and panel datasheets, manufacturer specification pages, published model cards and named independent lab measurements - with the revision and the date the figure was current. SpecWire does not operate its own test lab and never presents third-party measurements as its own. Review round-ups summarise and link to the outlets that did the testing, and are labelled as such. Content is drafted with AI assistance and reviewed by a human editor; see /editorial-policy/.",
   "adsense": {
+    "_comment": "Three states. Pre-application: enabled+verify both false, no AdSense code and no ad slots. Applying: set verify true with a real publisher_id - ships the ownership meta tag and ads.txt, still serves no ads. Approved: set enabled true.",
     "enabled": false,
+    "verify": false,
     "publisher_id": "ca-pub-0000000000000000",
     "auto_ads": true,
     "slots": {
