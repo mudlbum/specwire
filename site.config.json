@@ -1,0 +1,147 @@
+{
+  "site_name": "SpecWire",
+  "brand": {
+    "strong": "Spec",
+    "rest": "Wire"
+  },
+  "tagline": "Every spec sheet is a marketing document. We read the standard instead.",
+  "domain": "https://mudlbum.github.io/specwire",
+  "locale": "en_US",
+  "lang": "en",
+  "timezone": "America/Toronto",
+  "publisher": {
+    "name": "SpecWire",
+    "legal_name": "SpecWire",
+    "email": "editor@specwire.dev",
+    "founded": "2026"
+  },
+  "author": {
+    "name": "The SpecWire Desk",
+    "slug": "specwire-desk",
+    "role": "Editorial & Research Desk",
+    "bio": "SpecWire does not run a hardware lab, and says so plainly. What it does is read the documents almost nobody reads end to end - the standards, the compliance test specs, the panel and silicon datasheets, the model cards, the manufacturer spec pages - and reconcile them against what the marketing says. Where a number comes from a measurement, we name the lab that took it. Every figure carries the revision it came from and the date it was current.",
+    "same_as": []
+  },
+  "footer_blurb": "Independent tech explainers and review round-ups. We trace phone, laptop, display and AI claims back to the datasheet, the standard or the lab that measured them - and we cite all three.",
+  "disclaimer_line": "Nothing here replaces testing your own unit, and silicon behaviour varies between production runs and firmware revisions",
+  "knows_about": [
+    "smartphone specifications",
+    "laptop and desktop processors",
+    "artificial intelligence models",
+    "display specifications and certification",
+    "VESA DisplayHDR certification",
+    "OLED and Mini-LED panels",
+    "USB-C and Thunderbolt bandwidth",
+    "battery and fast charging standards",
+    "camera sensor specifications",
+    "wireless audio codecs"
+  ],
+  "homepage": {
+    "title": "SpecWire - tech specs, decoded and fact-checked",
+    "meta": "Plain-English explainers and review round-ups for phones, laptops, displays and AI. What each spec measures, who certifies it, and which numbers matter.",
+    "h1": "The number on the box, and the number that matters",
+    "dek": "Most tech specifications are self-reported, measured however the manufacturer prefers, and quoted without the conditions that make them meaningful. SpecWire reads the standards and the independent lab data, then tells you which claims actually hold."
+  },
+  "not_found_meta": "We could not find that page. Browse SpecWire's explainers and review round-ups on phones, laptops, displays and AI instead.",
+  "llms_blurb": "Independent, source-traced explainers and review round-ups covering smartphones, laptops, displays, AI models and consumer audio.",
+  "sourcing_note": "Claims are traced to primary sources - standards-body compliance documents, silicon and panel datasheets, manufacturer specification pages, published model cards and named independent lab measurements - with the revision and the date the figure was current. SpecWire does not operate its own test lab and never presents third-party measurements as its own. Review round-ups summarise and link to the outlets that did the testing, and are labelled as such. Content is drafted with AI assistance and reviewed by a human editor; see /editorial-policy/.",
+  "adsense": {
+    "enabled": false,
+    "publisher_id": "ca-pub-0000000000000000",
+    "auto_ads": true,
+    "slots": {
+      "in_article": "0000000000",
+      "sidebar": "0000000000",
+      "footer": "0000000000"
+    }
+  },
+  "analytics": {
+    "ga4_id": "",
+    "search_console_verification": ""
+  },
+  "categories": [
+    {
+      "slug": "phones",
+      "name": "Phones",
+      "blurb": "Flagships, mid-rangers and the spec claims that separate them - chipsets, cameras, charging and battery.",
+      "accent": "#34d3f5",
+      "meta": "Smartphone specifications decoded: SoC performance and sustained throttling, camera sensor size and binning, charging wattage versus real charge time, display brightness, and IP ratings - what each figure certifies and what it leaves out."
+    },
+    {
+      "slug": "computers",
+      "name": "Laptops & PCs",
+      "blurb": "CPUs, GPUs, memory and the ports on the side - what the numbers promise and what the thermals allow.",
+      "accent": "#a78bfa",
+      "meta": "Laptop and desktop specifications explained: CPU core layouts and boost behaviour, GPU tiers, RAM speed and channels, SSD interfaces, Thunderbolt and USB-C bandwidth, and why identical spec sheets perform differently."
+    },
+    {
+      "slug": "ai",
+      "name": "AI",
+      "blurb": "Models, benchmarks and on-device inference - what the scores measure and who verified them.",
+      "accent": "#3df29a",
+      "meta": "AI models and hardware explained: context windows, parameter counts, benchmark methodology, NPU TOPS ratings, on-device versus cloud inference, and how to read a model card without taking the launch chart at face value."
+    },
+    {
+      "slug": "displays",
+      "name": "Displays & TVs",
+      "blurb": "DisplayHDR tiers, real peak luminance, panel technology and the certifications that mean something.",
+      "accent": "#ffb020",
+      "meta": "How VESA DisplayHDR and ClearMR certification works, what each tier requires in cd/m2, how QD-OLED, WOLED and Mini-LED differ structurally, and which display numbers anybody actually verifies."
+    },
+    {
+      "slug": "audio",
+      "name": "Audio & Wearables",
+      "blurb": "Codecs, ANC, latency and battery claims - the wireless audio specs that survive contact with reality.",
+      "accent": "#ff6b6b",
+      "meta": "Wireless audio and wearable specifications: Bluetooth codecs and their real bitrates, active noise cancellation measurement, latency figures, battery life test conditions, and water resistance ratings."
+    },
+    {
+      "slug": "explainers",
+      "name": "Explainers",
+      "blurb": "The jargon, unpacked. One complex spec at a time, defined before it is used.",
+      "accent": "#7dd3fc",
+      "meta": "Plain-English definitions of the specifications that appear on every tech product page - nits, TOPS, Gbps, mAh, bit depth, refresh rate, process nodes - what each unit measures and how each is gamed."
+    }
+  ],
+  "nav": [
+    {
+      "label": "Phones",
+      "url": "/phones/"
+    },
+    {
+      "label": "Laptops & PCs",
+      "url": "/computers/"
+    },
+    {
+      "label": "AI",
+      "url": "/ai/"
+    },
+    {
+      "label": "Displays",
+      "url": "/displays/"
+    },
+    {
+      "label": "Audio",
+      "url": "/audio/"
+    },
+    {
+      "label": "Explainers",
+      "url": "/explainers/"
+    },
+    {
+      "label": "About",
+      "url": "/about/"
+    }
+  ],
+  "posts_per_page": 12,
+  "social": {
+    "x": "",
+    "linkedin": ""
+  },
+  "factcheck": {
+    "enforce_from": "2026-01-01",
+    "min_sources": 3,
+    "min_primary": 1,
+    "note": "Every post carries per-figure source indices; validate.py fails the build otherwise. A primary source here means a standards-body compliance document (VESA, HDMI Forum, USB-IF, Bluetooth SIG, JEDEC, ITU-R), a silicon or panel datasheet, a manufacturer specification page, a published model card, or a named independent lab's own measurement."
+  }
+}
