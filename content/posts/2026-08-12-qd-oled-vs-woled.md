@@ -4,6 +4,8 @@ slug: qd-oled-vs-woled
 seo_title: "QD-OLED vs WOLED: What Differs"
 meta: "Two ways of making an OLED panel, and a short list of characteristics that follow from the choice — ambient black level, text rendering, colour at brightness."
 category: displays
+hero: photo
+photo_query: "oled screen macro pixels subpixel display texture"
 date: 2026-08-12
 updated: 2026-08-12
 description: "QD-OLED and WOLED make light differently, and that difference determines a specific and fairly short list of behaviours. Everything else about the monitor is decided by whoever put the panel in a box."

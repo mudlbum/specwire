@@ -4,6 +4,8 @@ slug: monitor-response-time-1ms-explained
 seo_title: "Why 1ms Response Time Isn't 1ms"
 meta: "A 144Hz monitor holds each frame for 6.94ms. So where does 1ms come from? The arithmetic, the cherry-picked transition, and the metric VESA built to replace it."
 category: displays
+hero: photo
+photo_query: "gaming monitor motion blur fast movement screen"
 date: 2026-08-12
 updated: 2026-08-12
 description: "The 1ms on the box is either the single fastest grey-to-grey transition the panel produced with overdrive at maximum, or an MPRT figure achieved by switching the backlight off between frames. Neither describes what you will see."

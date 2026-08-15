@@ -11,6 +11,7 @@ image_alt: "Typographic cover reading: how much text fits in a 1M-token context 
 tags: [context window, tokens, LLM, Claude, OpenAI, AI, tokenizer, prompt engineering]
 about: ["Anthropic", "Claude", "OpenAI", "Large language model", "Tokenization"]
 hero: photo
+photo_query: "library archive shelves books rows perspective"
 key_takeaways:
   - text: "At OpenAI's published rule of thumb of **1 token to roughly 4 characters** of English, a **1,000,000-token** context window holds about **750,000 words** — near enough **2,500 paperback pages**."
     source: [1, 2]
