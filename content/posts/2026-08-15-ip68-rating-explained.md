@@ -165,6 +165,8 @@ The failure is not in the standard. It is that the badge gets quoted and the con
 
 Which is the same habit that makes every other spec sheet readable: find the condition attached to the number. Depth and duration for an IP rating. State of charge and adapter for a charging claim. Test patch and duration for a brightness claim — which is exactly why [a DisplayHDR 1000 badge does not mean 1,000 nits on screen](/displays/displayhdr-tiers-explained/), and why [an HDMI 2.1 port can carry a third of the bandwidth you assumed](/explainers/4k-144hz-hdmi-cable/).
 
+Sustained power for a core count, too, which is how [a 16-core laptop chip ends up slower than an 8-core desktop](/computers/laptop-cores-vs-desktop-cores/).
+
 The number alone is marketing. The number with its condition is a fact.
 
 *Ratings current as of 15 August 2026, verified against Apple's support documentation (last updated 14 July 2026) and Samsung Australia's support documentation (dated 10 August 2026). Ratings and model lists vary by region and change with new hardware — check your own model on the manufacturer's page. SpecWire does not test devices and has submerged nothing.*

@@ -99,7 +99,7 @@ Hold onto that last one. It is the best mental yardstick available, because most
 
 > [!KEY] At 1,695 tokens for the Declaration of Independence, a 1M-token context window holds about **590 copies** of it. A 200k window holds about 118.
 
-This is the same pattern that runs through most tech specifications: a headline number quoted without the condition that makes it meaningful. It is exactly why an [HDMI port badged 2.1 can legitimately carry a third of the bandwidth you assumed](/explainers/4k-144hz-hdmi-cable/), and it is worth the same suspicion here.
+This is the same pattern that runs through most tech specifications: a headline number quoted without the condition that makes it meaningful. It is exactly why an [HDMI port badged 2.1 can legitimately carry a third of the bandwidth you assumed](/explainers/4k-144hz-hdmi-cable/), and why [a 16-core laptop processor can lose to an 8-core desktop](/computers/laptop-cores-vs-desktop-cores/). It is worth the same suspicion here.
 
 One wrinkle that surprises people: the same word can become different tokens depending on where it sits. OpenAI's documentation shows "red" mid-sentence, "Red" mid-sentence and "Red" at the start of a sentence producing three different token IDs. Capitalisation and leading spaces are part of the token. Which is why the ratios above are estimates, and why both vendors point you at a real tokenizer when the count matters.
 

@@ -139,7 +139,7 @@ Ordered roughly by (demand × how badly it is currently served).
 8. Does 5G mmWave matter where you live?
 
 ### Laptops & PCs
-9. Why does a laptop CPU with 16 cores lose to a desktop with 8?
+9. ~~Why does a laptop CPU with 16 cores lose to a desktop with 8?~~ — done, 27 Aug 2026, `/computers/laptop-cores-vs-desktop-cores/`
 10. What does a TDP number promise, and what do the thermals actually allow?
 11. Thunderbolt 5 vs USB4 v2: what changes at the port?
 12. Does RAM speed matter, or only capacity?
@@ -173,3 +173,10 @@ Ordered roughly by (demand × how badly it is currently served).
 32. What 10-bit colour requires end to end, and whether you have it.
 33. What DSC does to your signal, and when it engages without telling you.
 34. Refresh rate vs frame rate vs response time — three different things.
+
+### Added 27 August 2026 (found while researching #9)
+35. P-cores vs E-cores: which one is running the thing you're waiting on?
+36. Why did Intel drop Hyper-Threading, and does losing SMT cost you anything?
+37. "Minimum Assured Power": the ARK field that decides your laptop's speed.
+38. Why two laptops with the same CPU benchmark 34% apart.
+39. What does a Cinebench score actually measure, and which version should you quote?
