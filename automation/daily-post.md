@@ -162,7 +162,7 @@ Ordered roughly by (demand × how badly it is currently served).
 25. Why does HDR look washed out in Windows?
 
 ### Audio & Wearables
-26. Does LDAC actually sound better than AAC?
+26. ~~Does LDAC actually sound better than AAC?~~ — done, 28 Aug 2026, `/audio/does-ldac-actually-sound-better-than-aac/`
 27. How is active noise cancellation measured, and by whom?
 28. What does "30-hour battery life" assume about volume and ANC?
 29. Bluetooth latency: why your video is out of sync.
@@ -180,3 +180,11 @@ Ordered roughly by (demand × how badly it is currently served).
 37. "Minimum Assured Power": the ARK field that decides your laptop's speed.
 38. Why two laptops with the same CPU benchmark 34% apart.
 39. What does a Cinebench score actually measure, and which version should you quote?
+
+### Added 28 August 2026 (found while researching #26)
+40. What is "Hi-Res Audio Wireless", who awards it, and what does the logo require?
+41. Why does a codec's bitrate depend on the Bluetooth MTU, and what sets the MTU?
+42. LC3 and LE Audio: does it fix the bitrate-versus-stability problem, or move it?
+43. What does RSSI in dBm mean for your headphones, and where is the cliff?
+44. Why does aptX Lossless claim 1,200 kbps when CD audio is 1,411 kbps?
+45. Does Android's Developer options codec picker actually change what gets negotiated?
