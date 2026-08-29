@@ -175,7 +175,7 @@ So treat the per-phone AAC numbers as evidence that phone-side encoding *can* va
 What has not aged is the structure. Sony still specifies three bitrates and still grants the logo at one of them. Android still defaults LDAC to best effort. The link budget that makes 990 kbps fragile is a property of classic Bluetooth's radio, not of 2018 silicon. And nobody has published a measurement set of comparable depth on current hardware — which is itself the finding. If you want a 2026 answer to "does LDAC beat AAC on a Pixel 10", the honest response is that no lab has published one.
 
 > [!NOTE]
-> This is the same shape of problem as [a monitor quoting 1 ms without naming the transition it was measured on](/displays/monitor-response-time-1ms-explained/), or [two phones both wearing an IP68 badge at depths four times apart](/phones/ip68-rating-explained/). The headline figure is genuine. The condition attached to it is what decides whether you ever see it.
+> This is the same shape of problem as [a monitor quoting 1 ms without naming the transition it was measured on](/displays/monitor-response-time-1ms-explained/), [two phones both wearing an IP68 badge at depths four times apart](/phones/ip68-rating-explained/), or [a 120W charging figure that only applies while the battery is nearly empty](/phones/120w-fast-charging-minute-by-minute/). The headline figure is genuine. The condition attached to it is what decides whether you ever see it.
 
 ## So what should you actually do?
 

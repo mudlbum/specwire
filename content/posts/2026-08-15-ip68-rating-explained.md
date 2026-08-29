@@ -163,7 +163,7 @@ IP68 is one of the better-behaved specifications in consumer tech. It comes from
 
 The failure is not in the standard. It is that the badge gets quoted and the conditions do not — so two products with genuinely different protection end up looking identical in a comparison table.
 
-Which is the same habit that makes every other spec sheet readable: find the condition attached to the number. Depth and duration for an IP rating. State of charge and adapter for a charging claim. Test patch and duration for a brightness claim — which is exactly why [a DisplayHDR 1000 badge does not mean 1,000 nits on screen](/displays/displayhdr-tiers-explained/), and why [an HDMI 2.1 port can carry a third of the bandwidth you assumed](/explainers/4k-144hz-hdmi-cable/).
+Which is the same habit that makes every other spec sheet readable: find the condition attached to the number. Depth and duration for an IP rating. State of charge and adapter for a charging claim, which is why [a 120W charger only delivers 120W for the first few minutes](/phones/120w-fast-charging-minute-by-minute/). Test patch and duration for a brightness claim — which is exactly why [a DisplayHDR 1000 badge does not mean 1,000 nits on screen](/displays/displayhdr-tiers-explained/), and why [an HDMI 2.1 port can carry a third of the bandwidth you assumed](/explainers/4k-144hz-hdmi-cable/).
 
 Sustained power for a core count, too, which is how [a 16-core laptop chip ends up slower than an 8-core desktop](/computers/laptop-cores-vs-desktop-cores/). Link strength for a Bluetooth bitrate, which is how [LDAC's 990 kbps headline turns into 330 kbps on most phones](/audio/does-ldac-actually-sound-better-than-aac/).
 

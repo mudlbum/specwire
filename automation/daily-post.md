@@ -129,7 +129,7 @@ to paste one into the conversation.
 Ordered roughly by (demand × how badly it is currently served).
 
 ### Phones
-1. What does "120 W fast charging" actually get you, minute by minute?
+1. ~~What does "120 W fast charging" actually get you, minute by minute?~~ — done, 29 Aug 2026, `/phones/120w-fast-charging-minute-by-minute/`
 2. Does a 200 MP camera sensor take better photos than a 50 MP one?
 3. What is pixel binning, and why does a 200 MP phone save 12 MP files?
 4. IP68 vs IP69: what is actually tested, and what voids the warranty?
@@ -188,3 +188,12 @@ Ordered roughly by (demand × how badly it is currently served).
 43. What does RSSI in dBm mean for your headphones, and where is the cliff?
 44. Why does aptX Lossless claim 1,200 kbps when CD audio is 1,411 kbps?
 45. Does Android's Developer options codec picker actually change what gets negotiated?
+
+### Added 29 August 2026 (found while researching #1)
+46. What is on the EU smartphone energy label, and how do you read a model's EPREL entry?
+47. What does "battery endurance in cycles" measure, and why is 800 the floor?
+48. Silicon-carbon batteries: what actually changed, and what does 10,000 mAh cost you?
+49. Why does a phone charge faster on a generic USB-PD brick for the first ten minutes?
+50. USB PD 3.1 EPR: which phones and laptops actually negotiate 28 V, 36 V or 48 V?
+51. Dual-cell phone batteries: why 120 W needs two cells in series, and what it costs in capacity.
+52. What is PPS, and why does Samsung's 45 W need it while Apple's 40 W does not?
