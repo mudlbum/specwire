@@ -141,7 +141,7 @@ Ordered roughly by (demand × how badly it is currently served).
 ### Laptops & PCs
 9. ~~Why does a laptop CPU with 16 cores lose to a desktop with 8?~~ — done, 27 Aug 2026, `/computers/laptop-cores-vs-desktop-cores/`
 10. What does a TDP number promise, and what do the thermals actually allow?
-11. Thunderbolt 5 vs USB4 v2: what changes at the port?
+11. ~~Thunderbolt 5 vs USB4 v2: what changes at the port?~~ — done, 30 Aug 2026, `/computers/thunderbolt-5-vs-usb4-v2/`
 12. Does RAM speed matter, or only capacity?
 13. PCIe 5.0 SSDs: faster on paper, faster in practice?
 14. What is a process node, and does "2 nm" measure anything physical?
@@ -197,3 +197,17 @@ Ordered roughly by (demand × how badly it is currently served).
 50. USB PD 3.1 EPR: which phones and laptops actually negotiate 28 V, 36 V or 48 V?
 51. Dual-cell phone batteries: why 120 W needs two cells in series, and what it costs in capacity.
 52. What is PPS, and why does Samsung's 45 W need it while Apple's 40 W does not?
+
+### Added 30 August 2026 (found while researching #11)
+53. What is PAM-3, and why did doubling the link speed not require a new cable?
+54. Why does an external SSD's write speed collapse after the first 50 GB?
+55. DP40, DP80 and DP80LL: what does VESA actually certify a DisplayPort cable to?
+56. Why is "USB4" not a speed, and what does the USB-IF want on the box instead?
+57. How much of a Thunderbolt link does a dock spend before your drive gets any?
+58. Is 240 W USB PD charging real, and which laptops negotiate it?
+
+**Note (30 Aug 2026):** backlog #10, "What does a TDP number promise, and what do the
+thermals actually allow?", is already answered by a dedicated H2 in
+`/computers/laptop-cores-vs-desktop-cores/`. Do not publish it standalone — either
+skip it or expand that post. Backlog #37 (Minimum Assured Power) is partly covered
+there too but is narrow enough to stand alone.
