@@ -54,7 +54,7 @@ POSTS = os.path.join(ROOT, "content", "posts")
 MIN_SOURCES = 3
 MIN_PRIMARY = 1
 MAX_SOURCE_AGE_DAYS = 400
-URL_TIMEOUT = 12
+URL_TIMEOUT = 25
 USER_AGENT = "specwire-linkcheck/1.0 (+https://specwire.dev/)"
 # Some publishers and manufacturers block non-browser agents outright. A 403 to a
 # bot is not evidence that a page is dead, so we retry as a browser and treat the
@@ -62,6 +62,12 @@ USER_AGENT = "specwire-linkcheck/1.0 (+https://specwire.dev/)"
 BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
 SOFT_FAIL_STATUSES = {401, 403, 406, 429, 999}
+# Only the server telling us the document is gone counts as a dead link. A
+# timeout, a TLS handshake failure, a reset connection or a 5xx are all evidence
+# about the network or the runner, not about whether the page exists — several
+# manufacturers (Intel, AMD, Samsung) simply hang on an unrecognised HEAD from a
+# datacentre IP. Those become warnings; 404 and 410 still fail the build.
+DEAD_STATUSES = {404, 410}
 
 FIGURE = re.compile(r"\*\*[^*]*\d[^*]*\*\*")
 ABSOLUTE = re.compile(r"^https?://", re.I)
@@ -202,19 +208,38 @@ def _probe(url: str) -> tuple[str, int | str]:
         with urllib.request.urlopen(req, timeout=URL_TIMEOUT) as r:
             return url, r.status
     except urllib.error.HTTPError as e:
-        if e.code in (401, 403, 405, 406, 429, 501):
-            # The server dislikes HEAD, or dislikes bots. Retry as a GET with a
-            # browser user-agent before concluding the page is gone.
-            try:
-                req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA})
-                with urllib.request.urlopen(req, timeout=URL_TIMEOUT) as r:
-                    return url, r.status
-            except urllib.error.HTTPError as e2:
-                return url, e2.code
-            except Exception as e2:             # noqa: BLE001
-                return url, f"{type(e2).__name__}: {e2}"
+        if e.code in DEAD_STATUSES:
+            # The server says the document is gone. Believe it; no retry.
+            return url, e.code
+        return _probe_as_browser(url, fallback=e.code)
+    except Exception:                           # noqa: BLE001
+        # Timeout, TLS failure, reset connection, DNS hiccup. None of these are
+        # statements about whether the page exists, and a HEAD is the request
+        # most likely to provoke them. Retry properly before drawing conclusions.
+        return _probe_as_browser(url, fallback=None)
+
+
+def _probe_as_browser(url: str, fallback: int | None) -> tuple[str, int | str]:
+    """Retry as a normal GET with a browser user-agent.
+
+    Many manufacturer sites answer a bot HEAD with a hang or a block but serve
+    the same URL happily to a browser. `fallback` is what to report if this
+    attempt also fails, so the original HTTP status is not lost.
+    """
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": BROWSER_UA,
+                 "Accept": "text/html,application/xhtml+xml,application/pdf,*/*;q=0.8",
+                 "Accept-Language": "en-US,en;q=0.9"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=URL_TIMEOUT) as r:
+            return url, r.status
+    except urllib.error.HTTPError as e:
         return url, e.code
     except Exception as e:                      # noqa: BLE001
+        if fallback is not None:
+            return url, fallback
         return url, f"{type(e).__name__}: {e}"
 
 
@@ -244,13 +269,21 @@ def check_urls(posts: list[tuple[str, dict]]) -> list[Finding]:
             ok = isinstance(status, int) and status < 400
             if ok:
                 continue
-            soft = isinstance(status, int) and status in SOFT_FAIL_STATUSES
+            dead = isinstance(status, int) and status in DEAD_STATUSES
+            if dead:
+                label = "is gone"
+            elif isinstance(status, int) and status in SOFT_FAIL_STATUSES:
+                label = "refused automated access"
+            elif isinstance(status, int):
+                label = "returned an error status"
+            else:
+                label = "could not be reached from this runner"
             for name, idx in jobs[url]:
                 findings.append(Finding(
                     name,
-                    f"source [{idx}] {'refused automated access' if soft else 'is unreachable'} "
-                    f"({status}) — {url}",
-                    fatal=not soft))
+                    f"source [{idx}] {label} ({status}) — {url}"
+                    + ("" if dead else " [not fatal: verify by hand before trusting it]"),
+                    fatal=dead))
     return findings
 
 
