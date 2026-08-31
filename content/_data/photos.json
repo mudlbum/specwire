@@ -25,5 +25,32 @@
     "source_url": "https://www.pexels.com/photo/person-in-black-blazer-typing-on-keyboard-5473307/",
     "provider": "Pexels",
     "query": "gaming monitor motion blur fast movement screen"
+  },
+  "thunderbolt-5-vs-usb4-v2": {
+    "path": "assets/photos/thunderbolt-5-vs-usb4-v2.jpg",
+    "alt": "Space grey type c USB hub with multiple different ports connected to laptop",
+    "credit": "https://kaboompics.com/",
+    "credit_url": "https://www.pexels.com/@karola-g",
+    "source_url": "https://www.pexels.com/photo/usb-adapter-under-type-c-connector-for-laptop-4195404/",
+    "provider": "Pexels",
+    "query": "Thunderbolt 5 USB4 Version 2.0 USB-C display screen"
+  },
+  "120w-fast-charging-minute-by-minute": {
+    "path": "assets/photos/120w-fast-charging-minute-by-minute.jpg",
+    "alt": "Detailed view of an electric vehicle charging station indoors, showcasing charging technology.",
+    "credit": "smart-me AG",
+    "credit_url": "https://www.pexels.com/@smart-me-ag-2155714756",
+    "source_url": "https://www.pexels.com/photo/electric-vehicle-charging-station-close-up-34800670/",
+    "provider": "Pexels",
+    "query": "fast charging 120W HyperCharge display screen"
+  },
+  "laptop-cores-vs-desktop-cores": {
+    "path": "assets/photos/laptop-cores-vs-desktop-cores.jpg",
+    "alt": "Detailed shot of AMD Ryzen 7 9700X processor held against bright yellow background.",
+    "credit": "Andrey Matveev",
+    "credit_url": "https://www.pexels.com/@zeleboba",
+    "source_url": "https://www.pexels.com/photo/close-up-of-amd-ryzen-7-9700x-processor-in-hand-32300577/",
+    "provider": "Pexels",
+    "query": "core count Core Ultra 9 285H Ryzen 7 9700X display screen"
   }
 }
