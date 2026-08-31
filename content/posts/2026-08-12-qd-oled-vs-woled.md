@@ -147,6 +147,7 @@ This is the part most comparisons skip, and it is where most of the difference b
 - **Ports and bandwidth.** Whether you get DisplayPort 2.1, how many HDMI 2.1 ports, whether DSC engages.
 - **Coating.** Matte, semi-gloss or glossy changes the ambient-light behaviour discussed above more than the panel type does in some rooms.
 - **Motion handling and overdrive tuning.** See [why the response time on the box isn't what you think](/displays/monitor-response-time-1ms-explained/).
+- **Which brightness figure the maker chose to print.** A peak number and a sustained number are both honest and wildly different; see [what nits and cd/m² actually measure](/explainers/nits-cd-m2-lumens-explained/).
 - **Quality control.** Uniformity and defect rates vary between brands using identical panels.
 
 > [!NOTE]

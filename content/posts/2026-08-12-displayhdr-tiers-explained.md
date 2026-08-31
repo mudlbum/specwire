@@ -98,7 +98,7 @@ sources:
 
 A DisplayHDR badge certifies that a display met a defined set of measured minimums under defined test conditions. It is one of the very few numbers on a monitor box that means something specific, because VESA publishes the compliance test specification and anyone can read it.
 
-The tier number itself is peak luminance in cd/m² on an **8% centre patch against a 2% average-picture-level background** — a small bright highlight on a mostly dark screen. It is not full-screen brightness, and the gap between those two figures is where most of the confusion lives. Under CTS 1.2, a DisplayHDR 1000 display is required to sustain only **600 cd/m²** across the full screen, and a True Black 1000 display only **500 cd/m²**.
+The tier number itself is peak luminance in cd/m² — the same unit a manufacturer writes as nits, if you want [the difference between nits, cd/m² and lumens](/explainers/nits-cd-m2-lumens-explained/) spelled out — on an **8% centre patch against a 2% average-picture-level background** — a small bright highlight on a mostly dark screen. It is not full-screen brightness, and the gap between those two figures is where most of the confusion lives. Under CTS 1.2, a DisplayHDR 1000 display is required to sustain only **600 cd/m²** across the full screen, and a True Black 1000 display only **500 cd/m²**.
 
 Below is the whole requirement set in plain language, current to the specification table VESA republished on 8 July 2026 to add the True Black 1400 tier.
 

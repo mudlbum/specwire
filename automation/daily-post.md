@@ -130,8 +130,8 @@ Ordered roughly by (demand × how badly it is currently served).
 
 ### Phones
 1. ~~What does "120 W fast charging" actually get you, minute by minute?~~ — done, 29 Aug 2026, `/phones/120w-fast-charging-minute-by-minute/`
-2. Does a 200 MP camera sensor take better photos than a 50 MP one?
-3. What is pixel binning, and why does a 200 MP phone save 12 MP files?
+2. ~~Does a 200 MP camera sensor take better photos than a 50 MP one?~~ — done, 29 Aug 2026, `/phones/200mp-vs-50mp-camera-sensor/`
+3. ~~What is pixel binning, and why does a 200 MP phone save 12 MP files?~~ — covered by a dedicated section of `/phones/200mp-vs-50mp-camera-sensor/`; do not publish standalone (cannibalisation)
 4. IP68 vs IP69: what is actually tested, and what voids the warranty?
 5. Why does the same chip score differently in two phones?
 6. What is the real difference between a Snapdragon 8 Elite and an A-series chip?
@@ -168,7 +168,7 @@ Ordered roughly by (demand × how badly it is currently served).
 29. Bluetooth latency: why your video is out of sync.
 
 ### Explainers
-30. Nits, cd/m² and lumens: which one describes a screen?
+30. ~~Nits, cd/m² and lumens: which one describes a screen?~~ — done, 31 Aug 2026, `/explainers/nits-cd-m2-lumens-explained/`
 31. Gbps vs GB/s, and why cable marketing mixes them.
 32. What 10-bit colour requires end to end, and whether you have it.
 33. What DSC does to your signal, and when it engages without telling you.
@@ -205,6 +205,15 @@ Ordered roughly by (demand × how badly it is currently served).
 56. Why is "USB4" not a speed, and what does the USB-IF want on the box instead?
 57. How much of a Thunderbolt link does a dock spend before your drive gets any?
 58. Is 240 W USB PD charging real, and which laptops negotiate it?
+
+### Added 31 August 2026 (found while researching #30)
+59. What is APL, and why does a 2% background change a display's peak brightness figure?
+60. ANSI lumens, ISO lumens, LED lumens: which projector number can you actually compare?
+61. What is V(λ), and why is the candela defined around one shade of yellow-green?
+62. Why does peak brightness depend on room temperature, and which spec sheets admit it?
+63. What does a colorimeter calibration certificate actually promise, and how far back does traceability go?
+64. What is Delta-ITP, and why did VESA switch to it for HDR colour accuracy?
+65. Screen gain: what does a 1.3-gain projector screen actually do to your image?
 
 **Note (30 Aug 2026):** backlog #10, "What does a TDP number promise, and what do the
 thermals actually allow?", is already answered by a dedicated H2 in
