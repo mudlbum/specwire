@@ -184,6 +184,8 @@ Notice also that Apple separates the SDR and HDR numbers, which is more useful t
 > [!TIP]
 > When you compare two displays, compare like conditions: patch-to-patch, or sustained-to-sustained. Comparing one maker's peak against another's full-screen number tells you nothing except which marketing department was braver.
 
+The habit generalises well beyond screens. Processor benchmarks carry a hidden test condition in exactly the same way, which is [why the same Snapdragon 8 Elite posts scores 40% apart in different phones](/phones/same-chip-different-benchmark-scores/): the benchmark is built to pause between workloads so heat cannot accumulate, so the score describes a chip that was kept cool rather than one under sustained load.
+
 ## When are lumens the right unit?
 
 When the light source and the surface are different objects. Projectors are the everyday case.

@@ -133,7 +133,7 @@ Ordered roughly by (demand × how badly it is currently served).
 2. ~~Does a 200 MP camera sensor take better photos than a 50 MP one?~~ — done, 29 Aug 2026, `/phones/200mp-vs-50mp-camera-sensor/`
 3. ~~What is pixel binning, and why does a 200 MP phone save 12 MP files?~~ — covered by a dedicated section of `/phones/200mp-vs-50mp-camera-sensor/`; do not publish standalone (cannibalisation)
 4. IP68 vs IP69: what is actually tested, and what voids the warranty?
-5. Why does the same chip score differently in two phones?
+5. ~~Why does the same chip score differently in two phones?~~ — done, 1 Sep 2026, `/phones/same-chip-different-benchmark-scores/`
 6. What is the real difference between a Snapdragon 8 Elite and an A-series chip?
 7. mAh vs Wh: which battery number should you compare?
 8. Does 5G mmWave matter where you live?
@@ -214,6 +214,22 @@ Ordered roughly by (demand × how badly it is currently served).
 63. What does a colorimeter calibration certificate actually promise, and how far back does traceability go?
 64. What is Delta-ITP, and why did VESA switch to it for HDR colour accuracy?
 65. Screen gain: what does a 1.3-gain projector screen actually do to your image?
+
+### Added 1 September 2026 (found while researching #5)
+66. What does a 3DMark stress-test "stability" percentage actually divide by?
+67. Why does Geekbench 6 pause 5 seconds between workloads, and what does that hide?
+68. Geekbench's 2,500 baseline: which machine is it, and why does the scale drift between versions?
+69. SoC binning: what are SM8750-AB, -AC and -3-AB, and how do you find out which one you bought?
+70. Why did Geekbench 6 switch from "separate task" to "shared task" multi-core, and who lost out?
+71. What is a "for Galaxy" chip variant, and does any other OEM get one?
+72. Integer 65%, floating point 35%: who decided a benchmark's weighting, and does it match your workload?
+73. UFS 4.0 vs UFS 4.1: does storage speed move a phone benchmark score?
+
+**Note (1 Sep 2026):** backlog #4, "IP68 vs IP69", was considered and deferred. The
+existing `/phones/ip68-rating-explained/` already owns the IP68 query, and the IP69/IP69K
+test conditions live in IEC 60529 and ISO 20653, both paywalled — the article's core
+figures could not be traced to a readable primary document. Revisit only if a free
+authoritative source for the test conditions appears, or fold IP69 into the existing post.
 
 **Note (30 Aug 2026):** backlog #10, "What does a TDP number promise, and what do the
 thermals actually allow?", is already answered by a dedicated H2 in

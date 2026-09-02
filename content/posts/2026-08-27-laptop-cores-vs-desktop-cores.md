@@ -94,6 +94,8 @@ Intel's Core Ultra 9 285H is a 16-core laptop chip. AMD's Ryzen 7 9700X is an 8-
 
 Two things explain it, and neither is a mystery once you read the spec sheets properly. Only 6 of the laptop's 16 cores are performance-cores, and because Intel lists Hyper-Threading as unsupported on this part, all 16 cores produce exactly 16 threads — the same thread count the 8-core desktop chip delivers via SMT. Then the laptop's sustained power collapses under load, and a core you cannot feed does not compute.
 
+Phones do the same thing, only harder, because the box is smaller and there is no fan. If you want the mobile version of this argument, see [why the same Snapdragon 8 Elite scores 40% apart in two phones](/phones/same-chip-different-benchmark-scores/) — Qualcomm ships that one chip name in two core counts and two clock speeds before cooling is even considered.
+
 ## What is Intel actually counting when it says 16 cores?
 
 Three different things, stacked into one number.
