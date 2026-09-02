@@ -135,7 +135,7 @@ Ordered roughly by (demand × how badly it is currently served).
 4. IP68 vs IP69: what is actually tested, and what voids the warranty?
 5. ~~Why does the same chip score differently in two phones?~~ — done, 1 Sep 2026, `/phones/same-chip-different-benchmark-scores/`
 6. What is the real difference between a Snapdragon 8 Elite and an A-series chip?
-7. mAh vs Wh: which battery number should you compare?
+7. ~~mAh vs Wh: which battery number should you compare?~~ — done, 2 Sep 2026, `/explainers/mah-vs-wh-battery-capacity/` (filed under `explainers`: it is a unit explainer, and every battery post can link into it)
 8. Does 5G mmWave matter where you live?
 
 ### Laptops & PCs
@@ -236,3 +236,11 @@ thermals actually allow?", is already answered by a dedicated H2 in
 `/computers/laptop-cores-vs-desktop-cores/`. Do not publish it standalone — either
 skip it or expand that post. Backlog #37 (Minimum Assured Power) is partly covered
 there too but is narrow enough to stand alone.
+
+### Added 2 September 2026 (found while researching #7)
+74. Why do lithium cells have a "nominal" voltage, and what does the 4.2 V to 2.5 V discharge curve do to your battery gauge?
+75. Why does Apple publish no capacity figure for iPhone, and where does the EU energy label force one into the open?
+76. Power bank conversion loss: how much of a 3.6 V cell's energy survives the boost to 5 V, 9 V and 20 V?
+77. What does IEC 61960-3's 0.2 It discharge test measure, and why would a fast-discharge phone deliver less than its rated mAh?
+78. Why is every 16-inch laptop battery 99.x Wh, and what does the FAA's 160 Wh tier actually permit?
+79. Silicon-carbon anodes: does a higher nominal voltage explain part of the "10,000 mAh" headlines?

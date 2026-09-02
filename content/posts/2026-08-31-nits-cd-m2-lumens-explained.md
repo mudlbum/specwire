@@ -5,7 +5,7 @@ seo_title: "Nits vs cd/m² vs Lumens"
 meta: "Nits and cd/m² are the same unit. Lumens are not. Here is what each one measures, who defines it, and why 1,000 nits is really three numbers."
 category: explainers
 date: 2026-08-31
-updated: 2026-08-31
+updated: 2026-09-02
 description: "Nits and candela per square metre are two names for one unit. Lumens measure something else entirely. This is what each quantity means, which document defines it, and why a brightness figure without its test patch is not a measurement."
 image_alt: "Grouped bar chart comparing VESA DisplayHDR tier requirements for an 8 percent centre patch against sustained full-screen luminance, in candela per square metre"
 tags: [nits, candela per square metre, lumens, luminance, DisplayHDR, photometry, screen brightness, SI units]
@@ -134,7 +134,7 @@ Photometry has four quantities that get muddled, and they answer four different 
 | Illuminance | lux (lx) | How much light is landing on this surface? |
 | Luminance | cd/m², a.k.a. nit | How bright does this surface look from where I'm standing? |
 
-A monitor, a phone and a TV all emit light from a fixed, measurable area, so luminance is the natural unit and the box says nits. A projector bulb throws light in a cone at a surface it does not own, so flux is the natural unit and the box says lumens. A room's lighting design is specified in lux, because what matters is how much light reaches the desk.
+A monitor, a phone and a TV all emit light from a fixed, measurable area, so luminance is the natural unit and the box says nits. A projector bulb throws light in a cone at a surface it does not own, so flux is the natural unit and the box says lumens. A room's lighting design is specified in lux, because what matters is how much light reaches the desk. Battery spec sheets play the same game with a different pair of units, which is why [mAh and Wh are not interchangeable either](/explainers/mah-vs-wh-battery-capacity/).
 
 > [!KEY]
 > Nit and cd/m² are the same unit. If a spec sheet uses both words for two different figures, it is being sloppy, not precise.

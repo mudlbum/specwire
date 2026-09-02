@@ -5,7 +5,7 @@ seo_title: "What 120W Fast Charging Really Buys"
 meta: "A 120W brick holds 120W for minutes, not an hour. Here is what GSMArena measured at 15 and 30 minutes, and why full-charge time barely tracks wattage."
 category: phones
 date: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-02
 description: "The wattage on the charger is a ceiling that exists for the first slice of the charge. What matters is how much energy lands in the battery in the fifteen minutes you actually have."
 image_alt: "Illustration for an article about smartphone fast charging wattage and how charging power tapers over time"
 tags: [fast charging, 120W, HyperCharge, USB Power Delivery, charging curve, battery, smartphone charging, Ecodesign]
@@ -144,7 +144,7 @@ Neither comparison is broken. They are measuring different things, and the spec 
 
 Yes, and it is the biggest reason these numbers look strange.
 
-A percent is a fraction of whatever pack the phone happens to have. Forty-four per cent of the Xiaomi 17 Pro Max's 7,500 mAh is roughly 3,300 mAh. Forty-one per cent of the Galaxy S25 Ultra's 5,000 mAh is roughly 2,050 mAh. Almost the same percentage, about 60% more charge actually moved. Milliamp-hours are not a great unit either, since charge without voltage is not energy, but at least they stop small batteries from looking fast for free.
+A percent is a fraction of whatever pack the phone happens to have. Forty-four per cent of the Xiaomi 17 Pro Max's 7,500 mAh is roughly 3,300 mAh. Forty-one per cent of the Galaxy S25 Ultra's 5,000 mAh is roughly 2,050 mAh. Almost the same percentage, about 60% more charge actually moved. Milliamp-hours are not a great unit either, since [charge without voltage is not energy](/explainers/mah-vs-wh-battery-capacity/), but at least they stop small batteries from looking fast for free.
 
 > [!WARNING] "Full in 20 minutes" and "50% in 20 minutes" are not comparable claims
 > Manufacturers publish whichever of the two flatters the product, and both are true statements about the same charging curve. Before comparing two phones, check that the endpoint is the same. It usually is not.
