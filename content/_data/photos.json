@@ -52,5 +52,14 @@
     "source_url": "https://www.pexels.com/photo/close-up-of-amd-ryzen-7-9700x-processor-in-hand-32300577/",
     "provider": "Pexels",
     "query": "core count Core Ultra 9 285H Ryzen 7 9700X display screen"
+  },
+  "same-chip-different-benchmark-scores": {
+    "path": "assets/photos/same-chip-different-benchmark-scores.jpg",
+    "alt": "Close-up of a hand holding a smartphone displaying Funtouch OS 14 on a vibrant yellow background.",
+    "credit": "Andrey Matveev",
+    "credit_url": "https://www.pexels.com/@zeleboba",
+    "source_url": "https://www.pexels.com/photo/hand-holding-smartphone-with-funtouch-os-14-32767987/",
+    "provider": "Pexels",
+    "query": "Snapdragon 8 Elite Geekbench benchmarks display screen"
   }
 }
