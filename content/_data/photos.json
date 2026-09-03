@@ -61,5 +61,14 @@
     "source_url": "https://www.pexels.com/photo/hand-holding-smartphone-with-funtouch-os-14-32767987/",
     "provider": "Pexels",
     "query": "Snapdragon 8 Elite Geekbench benchmarks display screen"
+  },
+  "snapdragon-8-elite-vs-apple-a-series": {
+    "path": "assets/photos/snapdragon-8-elite-vs-apple-a-series.jpg",
+    "alt": "Two smartphones are shown displaying a software update screen with One UI 8.5.",
+    "credit": "Andrey Matveev",
+    "credit_url": "https://www.pexels.com/@zeleboba",
+    "source_url": "https://www.pexels.com/photo/two-smartphones-displaying-software-update-screen-37421861/",
+    "provider": "Pexels",
+    "query": "Snapdragon 8 Elite Gen 5 Apple A19 Pro Qualcomm display screen"
   }
 }
