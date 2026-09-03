@@ -178,6 +178,8 @@ The processor page is the wrong document. You want the review of your exact mode
 
 None of this makes core count useless. It sets the ceiling, and a 16-core chip in a genuinely well-cooled 16-inch chassis will beat an 8-core one in the same class. What it does not do is survive being lifted out of the spec sheet on its own, which is precisely how it is usually quoted.
 
+Phones run the same trick with less paperwork. Eight Snapdragon cores beat six Apple ones by roughly ten percent in Notebookcheck's multi-core database, which is a thin return on a third more cores — and one of the two vendors [publishes no clock speed at all](/phones/snapdragon-8-elite-vs-apple-a-series/).
+
 The honest version of the laptop spec line would read something like: sixteen cores, six of which are fast, configurable by the manufacturer anywhere between 35 W and 115 W, currently set to whatever we felt like. Nobody is going to print that. But it is what the ARK page says, in public, for anyone who scrolls past the first row.
 
 *Specifications current as of 27 August 2026, verified against Intel ARK product 241747 and Intel support article 000055611 (last reviewed 4 April 2023), and AMD's Ryzen 7 9700X product page. Performance figures are Notebookcheck's own measurements, read 27 August 2026. SpecWire operates no test lab and has benchmarked nothing.*

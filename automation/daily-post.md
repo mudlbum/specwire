@@ -134,7 +134,7 @@ Ordered roughly by (demand × how badly it is currently served).
 3. ~~What is pixel binning, and why does a 200 MP phone save 12 MP files?~~ — covered by a dedicated section of `/phones/200mp-vs-50mp-camera-sensor/`; do not publish standalone (cannibalisation)
 4. IP68 vs IP69: what is actually tested, and what voids the warranty?
 5. ~~Why does the same chip score differently in two phones?~~ — done, 1 Sep 2026, `/phones/same-chip-different-benchmark-scores/`
-6. What is the real difference between a Snapdragon 8 Elite and an A-series chip?
+6. ~~What is the real difference between a Snapdragon 8 Elite and an A-series chip?~~ — done, 3 Sep 2026, `/phones/snapdragon-8-elite-vs-apple-a-series/`
 7. ~~mAh vs Wh: which battery number should you compare?~~ — done, 2 Sep 2026, `/explainers/mah-vs-wh-battery-capacity/` (filed under `explainers`: it is a unit explainer, and every battery post can link into it)
 8. Does 5G mmWave matter where you live?
 
@@ -236,6 +236,15 @@ thermals actually allow?", is already answered by a dedicated H2 in
 `/computers/laptop-cores-vs-desktop-cores/`. Do not publish it standalone — either
 skip it or expand that post. Backlog #37 (Minimum Assured Power) is partly covered
 there too but is narrow enough to stand alone.
+
+### Added 3 September 2026 (found while researching #6)
+80. Why does Apple publish no clock speed, and where do the A-series GHz figures in benchmark databases come from?
+81. What is Qualcomm's "7-core CPU version" footnote hiding, and which phones ship SM8850-5-AC?
+82. Nobody publishes TOPS for phone silicon any more — when did Qualcomm and Apple both stop, and what replaced it?
+83. Adreno HPM: what does 18 MB of dedicated GPU memory change, and why is it not called cache?
+84. What is a vapour chamber actually worth in a phone, in degrees and in sustained score?
+85. LPDDR5X at 5,300 MHz: is that the data rate, the clock, or neither?
+86. Why do manufacturers quote modem peaks like 12.5 Gbps that no carrier can deliver?
 
 ### Added 2 September 2026 (found while researching #7)
 74. Why do lithium cells have a "nominal" voltage, and what does the 4.2 V to 2.5 V discharge curve do to your battery gauge?

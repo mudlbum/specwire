@@ -176,4 +176,6 @@ Skip the chip name. It's the least informative line on the spec sheet.
 
 None of this makes benchmark scores worthless. A 2,309 and a 3,228 on the same test really are different, and the phone posting 3,228 really is quicker at the things Geekbench measures. The mistake is reading the chip name and assuming you know which one you're getting — Qualcomm has published two product briefs and two footnotes telling you that you don't.
 
+Worth noting that this spread is larger than the gap between vendors. Set Qualcomm's platform against Apple's and the two chips land within about ten percent of each other, which is why [comparing a Snapdragon 8 Elite with an A-series chip turns into an argument about disclosure](/phones/snapdragon-8-elite-vs-apple-a-series/) rather than performance.
+
 *Specifications current as of 1 September 2026, verified against Qualcomm product briefs 87-83196-1 Rev D and 87-86431-1 Rev B, the Qualcomm Snapdragon 8 Elite platform page, and Primate Labs' Geekbench 6 Benchmark Internals (May 2024). Benchmark ranges and stress-test figures were measured and published by Notebookcheck; SpecWire does not test hardware.*
