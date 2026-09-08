@@ -142,13 +142,13 @@ Ordered roughly by (demand × how badly it is currently served).
 9. ~~Why does a laptop CPU with 16 cores lose to a desktop with 8?~~ — done, 27 Aug 2026, `/computers/laptop-cores-vs-desktop-cores/`
 10. What does a TDP number promise, and what do the thermals actually allow?
 11. ~~Thunderbolt 5 vs USB4 v2: what changes at the port?~~ — done, 30 Aug 2026, `/computers/thunderbolt-5-vs-usb4-v2/`
-12. Does RAM speed matter, or only capacity?
+12. ~~Does RAM speed matter, or only capacity?~~ — done, 8 Sep 2026, `/computers/does-ram-speed-matter-or-only-capacity/`
 13. PCIe 5.0 SSDs: faster on paper, faster in practice?
 14. What is a process node, and does "2 nm" measure anything physical?
 
 ### AI
-15. What does a context window actually hold, in pages of text?
-16. What do NPU TOPS ratings measure, and are two vendors' numbers comparable?
+15. ~~What does a context window actually hold, in pages of text?~~ — done, 15 Aug 2026, `/ai/context-window-explained/`
+16. ~~What do NPU TOPS ratings measure, and are two vendors' numbers comparable?~~ — done, 7 Sep 2026, `/ai/npu-tops-explained/`
 17. How do you read a model card without trusting the launch chart?
 18. On-device vs cloud AI: what genuinely runs on your phone?
 19. What is quantisation, and what does it cost you in quality?
@@ -253,3 +253,12 @@ there too but is narrow enough to stand alone.
 77. What does IEC 61960-3's 0.2 It discharge test measure, and why would a fast-discharge phone deliver less than its rated mAh?
 78. Why is every 16-inch laptop battery 99.x Wh, and what does the FAA's 160 Wh tier actually permit?
 79. Silicon-carbon anodes: does a higher nominal voltage explain part of the "10,000 mAh" headlines?
+
+### Added 8 September 2026 (found while researching #12)
+87. What is a CUDIMM, and why does JEDEC DDR5-6400 on desktop need a clock driver on the module?
+88. CL30 vs CL26: how do you convert CAS latency to nanoseconds, and which kit is actually faster?
+89. Why does AMD's memory controller drop to 2:1 above DDR5-6000, and what does UCLK=MEMCLK cost you?
+90. Why does filling all four RAM slots cut the rated speed from DDR5-5600 to DDR5-3600?
+91. XMP vs EXPO: what is in the profile, who validates it, and does enabling it affect your CPU warranty?
+92. What is a memory QVL, and why does the motherboard maker's list matter more than the CPU spec page?
+93. Single rank vs dual rank: why does the same 32 GB kit run at different rated speeds?
