@@ -5,7 +5,7 @@ seo_title: "NPU TOPS explained: what 45 TOPS means"
 meta: "NPU TOPS is a peak arithmetic figure, not a benchmark. Here's how Intel, AMD, Qualcomm and Apple each define it, and what the one standard test measured."
 category: ai
 date: 2026-09-07
-updated: 2026-09-07
+updated: 2026-09-08
 description: "Every AI PC is sold on a TOPS number. It is a calculated ceiling, not a measurement, and the four companies quoting it don't all attach the same conditions. Here is what each spec sheet actually says, and what happens when a standard benchmark runs on the same silicon."
 image_alt: "Bar chart of published peak NPU TOPS for the Apple M4, Snapdragon X Elite, Intel Core Ultra 7 258V, AMD Ryzen AI 9 HX 370 and Snapdragon X2 Elite"
 tags: [NPU, TOPS, Copilot+ PC, Snapdragon X Elite, Core Ultra 200V, Ryzen AI 300, Apple M4, MLPerf Client]
@@ -210,7 +210,7 @@ Beyond that, treat it the way you'd treat a horsepower figure quoted without a d
 > - Look for a sparsity line. If it says "supported", ask whether the headline is the dense or the sparse figure.
 > - Check the part number. Qualcomm publishes 80 and 85 TOPS for chips in the same family; the box may not say which you have.
 > - Ask for a token rate. MLPerf Client publishes tokens per second and time to first token with the configuration attached.
-> - Remember the memory. Bandwidth in GB/s predicts generation speed better than TOPS does, and it's usually on the same spec page.
+> - Remember the memory. Bandwidth in GB/s predicts generation speed better than TOPS does, and it's usually on the same spec page. On a desktop that bandwidth is set by the RAM you buy, and [Puget Systems measured a 16% token-rate drop from slower DDR5 alone](/computers/does-ram-speed-matter-or-only-capacity/).
 
 > [!TIP]
 > One sanity check: take the model size in gigabytes at the precision you'll run, divide the memory bandwidth by it, and you have a hard upper bound on tokens per second. No NPU rating can beat that number.

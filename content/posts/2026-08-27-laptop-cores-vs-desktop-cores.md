@@ -5,7 +5,7 @@ seo_title: "16-Core Laptop vs 8-Core Desktop"
 meta: "Intel's Core Ultra 9 285H has 16 cores. AMD's Ryzen 7 9700X has 8. Notebookcheck measured the desktop 21% faster. Here is what the core count hides."
 category: computers
 date: 2026-08-27
-updated: 2026-08-27
+updated: 2026-09-08
 description: "Core count is the most quoted number on a laptop spec sheet and one of the least informative. Two chips, sixteen cores against eight, and the eight wins."
 image_alt: "Illustration for an article comparing laptop and desktop processor core counts and sustained power limits"
 tags: [core count, Core Ultra 9 285H, Ryzen 7 9700X, TDP, Processor Base Power, sustained performance, Cinebench, laptop CPU]
@@ -150,7 +150,7 @@ AMD's approach on the desktop side is simpler for the same reason the physics is
 > [!NOTE] Where the two numbers come from
 > Intel's 110 °C maximum operating temperature for the 285H is higher than AMD's 95 °C for the 9700X, which sounds like an advantage and is not. A mobile chip is allowed to run hotter because the alternative is running slower. A desktop chip has room for a heatsink the size of a fist.
 
-This is the same failure mode as a badge that gets quoted without its test condition. It is why [two phones can both be IP68 and be rated for depths four times apart](/phones/ip68-rating-explained/), why [an HDMI 2.1 port is allowed to carry a fraction of the bandwidth the number implies](/explainers/4k-144hz-hdmi-cable/), why [a headline of 990 kbps LDAC often arrives as 330](/audio/does-ldac-actually-sound-better-than-aac/), why [a 120W charging rating survives for a few minutes of the charge](/phones/120w-fast-charging-minute-by-minute/), and why [a USB4 port is allowed to run at a quarter of the 80 Gbps its own specification permits](/computers/thunderbolt-5-vs-usb4-v2/). The number is real. The condition attached to it is what makes it mean something, and the condition is the part that falls off in a comparison table.
+This is the same failure mode as a badge that gets quoted without its test condition. It is why [two phones can both be IP68 and be rated for depths four times apart](/phones/ip68-rating-explained/), why [an HDMI 2.1 port is allowed to carry a fraction of the bandwidth the number implies](/explainers/4k-144hz-hdmi-cable/), why [a headline of 990 kbps LDAC often arrives as 330](/audio/does-ldac-actually-sound-better-than-aac/), why [a 120W charging rating survives for a few minutes of the charge](/phones/120w-fast-charging-minute-by-minute/), why [a USB4 port is allowed to run at a quarter of the 80 Gbps its own specification permits](/computers/thunderbolt-5-vs-usb4-v2/), and why [a CPU rated for DDR5-5600 drops to 3600 the moment you fill all four RAM slots](/computers/does-ram-speed-matter-or-only-capacity/). The number is real. The condition attached to it is what makes it mean something, and the condition is the part that falls off in a comparison table.
 
 ## Is the desktop winning on silicon or on cooling?
 

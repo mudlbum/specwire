@@ -5,7 +5,7 @@ seo_title: "Same Chip, Two Phones, Two Scores"
 meta: "Same chip name, different benchmark scores? Qualcomm ships the Snapdragon 8 Elite in two core counts and two clock speeds — and that's before cooling."
 category: phones
 date: 2026-09-01
-updated: 2026-09-01
+updated: 2026-09-08
 description: "A chip name is a marketing label, not a configuration. Qualcomm's own product briefs describe two different Snapdragon 8 Elites, and the cooling around them does the rest."
 image_alt: "Typographic cover reading: the same Snapdragon 8 Elite spans a 40 percent single-core benchmark range across 30 tested devices"
 tags: [Snapdragon 8 Elite, Geekbench, benchmarks, thermal throttling, Qualcomm, SoC binning, 3DMark, smartphone performance]
@@ -170,7 +170,7 @@ Skip the chip name. It's the least informative line on the spec sheet.
 
 > [!ACTION] Four things worth two minutes each
 > - Find the manufacturer's own spec page and look for a published CPU clock and core count. Qualcomm tells you to do this; take the hint.
-> - Check whether the RAM is LPDDR5X and how much of it there is. The brief's 24 GB ceiling is a ceiling, not a promise.
+> - Check whether the RAM is LPDDR5X and how much of it there is. The brief's 24 GB ceiling is a ceiling, not a promise. The same capacity-versus-speed trade [applies on the desktop](/computers/does-ram-speed-matter-or-only-capacity/), where running short of RAM costs far more than running it slowly.
 > - Look for a stress-test stability figure in a review from a lab that publishes its own measurements, not a summary of someone else's.
 > - Note the ambient temperature the review mentions, if any. A benchmark run in a 30 °C room is a different test from one run in a 20 °C room.
 
