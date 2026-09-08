@@ -70,5 +70,14 @@
     "source_url": "https://www.pexels.com/photo/two-smartphones-displaying-software-update-screen-37421861/",
     "provider": "Pexels",
     "query": "Snapdragon 8 Elite Gen 5 Apple A19 Pro Qualcomm display screen"
+  },
+  "does-ram-speed-matter-or-only-capacity": {
+    "path": "assets/photos/does-ram-speed-matter-or-only-capacity.jpg",
+    "alt": "Close-up of two T-Force Delta DDR5 RGB memory sticks on a vibrant yellow background.",
+    "credit": "Andrey Matveev",
+    "credit_url": "https://www.pexels.com/@zeleboba",
+    "source_url": "https://www.pexels.com/photo/silver-t-force-delta-rgb-ddr5-memory-sticks-on-yellow-31886527/",
+    "provider": "Pexels",
+    "query": "DDR5 RAM speed RAM capacity display screen"
   }
 }
