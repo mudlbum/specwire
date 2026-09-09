@@ -165,7 +165,7 @@ The failure is not in the standard. It is that the badge gets quoted and the con
 
 Which is the same habit that makes every other spec sheet readable: find the condition attached to the number. Depth and duration for an IP rating. State of charge and adapter for a charging claim, which is why [a 120W charger only delivers 120W for the first few minutes](/phones/120w-fast-charging-minute-by-minute/). Test patch and duration for a brightness claim — which is exactly why [a DisplayHDR 1000 badge does not mean 1,000 nits on screen](/displays/displayhdr-tiers-explained/), and why [an HDMI 2.1 port can carry a third of the bandwidth you assumed](/explainers/4k-144hz-hdmi-cable/).
 
-Sustained power for a core count, too, which is how [a 16-core laptop chip ends up slower than an 8-core desktop](/computers/laptop-cores-vs-desktop-cores/). Link strength for a Bluetooth bitrate, which is how [LDAC's 990 kbps headline turns into 330 kbps on most phones](/audio/does-ldac-actually-sound-better-than-aac/).
+Sustained power for a core count, too, which is how [a 16-core laptop chip ends up slower than an 8-core desktop](/computers/laptop-cores-vs-desktop-cores/). Link strength for a Bluetooth bitrate, which is how [LDAC's 990 kbps headline turns into 330 kbps on most phones](/audio/does-ldac-actually-sound-better-than-aac/). Even the band list on a phone's spec page carries a hidden condition — [whether your regional model has the mmWave antennas at all](/phones/does-5g-mmwave-matter-where-you-live/) is a different question from whether the network exists.
 
 The number alone is marketing. The number with its condition is a fact.
 

@@ -124,6 +124,8 @@ Both documents were read on 3 September 2026. Here is the entire published compa
 
 Apple's launch release goes slightly further than the spec page and still avoids numbers: the A19 Pro has "a larger cache, and more memory than A18 Pro". Larger and more than what, exactly, is left to the reader.
 
+The modem row is worth a second look, because 12.5 Gbps is a laboratory ceiling no carrier hands a phone. Where Apple *does* publish radio detail is the band list, and that list changes by region — which is the whole reason [mmWave 5G may be irrelevant where you live regardless of coverage](/phones/does-5g-mmwave-matter-where-you-live/).
+
 > [!KEY]
 > Qualcomm's page carries two footnotes that matter more than most of its headline claims. The platform is "also available in 4.6 GHz CPU version", and it is "also available in 7-core CPU version". Qualcomm's own advice: consult OEM specifications for device CPU speed.
 

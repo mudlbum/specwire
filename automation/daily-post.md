@@ -136,7 +136,7 @@ Ordered roughly by (demand × how badly it is currently served).
 5. ~~Why does the same chip score differently in two phones?~~ — done, 1 Sep 2026, `/phones/same-chip-different-benchmark-scores/`
 6. ~~What is the real difference between a Snapdragon 8 Elite and an A-series chip?~~ — done, 3 Sep 2026, `/phones/snapdragon-8-elite-vs-apple-a-series/`
 7. ~~mAh vs Wh: which battery number should you compare?~~ — done, 2 Sep 2026, `/explainers/mah-vs-wh-battery-capacity/` (filed under `explainers`: it is a unit explainer, and every battery post can link into it)
-8. Does 5G mmWave matter where you live?
+8. ~~Does 5G mmWave matter where you live?~~ — done, 9 Sep 2026, `/phones/does-5g-mmwave-matter-where-you-live/`
 
 ### Laptops & PCs
 9. ~~Why does a laptop CPU with 16 cores lose to a desktop with 8?~~ — done, 27 Aug 2026, `/computers/laptop-cores-vs-desktop-cores/`
@@ -224,6 +224,22 @@ Ordered roughly by (demand × how badly it is currently served).
 71. What is a "for Galaxy" chip variant, and does any other OEM get one?
 72. Integer 65%, floating point 35%: who decided a benchmark's weighting, and does it match your workload?
 73. UFS 4.0 vs UFS 4.1: does storage speed move a phone benchmark score?
+
+### Added 9 September 2026 (found while researching #8)
+94. What is spherical coverage in 3GPP TS 38.101-2, and why does the standard allow an 11 dB gap between beam peak and median?
+95. What does "power class 3" mean for a phone, and which devices are power class 1, 2 or 4?
+96. TDD vs FDD: why is every mmWave band time-division duplex, and what does that cost your upload?
+97. C-band vs mmWave: which one is Verizon's "5G UW" icon actually showing you right now?
+98. What is an NR ARFCN, and how do you read your phone's actual band without a special app?
+99. Why is FR1 capped at 100 MHz per carrier while FR2 allows 400 MHz, and what sets that limit?
+100. Band n263 at 57–71 GHz is unlicensed — is anyone shipping it, and how does it differ from WiGig?
+101. Why do US and international iPhone models differ in LTE bands too, and which ones would you lose?
+
+**Note (9 Sep 2026):** the freshest per-carrier US mmWave availability figures appear to be
+Ookla/RootMetrics work published in 2026, but `ookla.com` is not fetchable from this
+environment, so those numbers could not be verified against the source document and were
+left out. The article uses Opensignal's own October 2021 measurement instead and says
+plainly that it is dated. If Ookla's pages become readable, that post is worth an update.
 
 **Note (1 Sep 2026):** backlog #4, "IP68 vs IP69", was considered and deferred. The
 existing `/phones/ip68-rating-explained/` already owns the IP68 query, and the IP69/IP69K
